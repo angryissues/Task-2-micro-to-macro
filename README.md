@@ -13,51 +13,33 @@
 
 Выполнен диагностический эксперимент на данных A2.
 
-Использованы две reference-модели:
+Исследованы следующие типы микроошибок:
 
-- Reference B — temperature scaling;
-- Reference A — isotonic calibration.
-
-Основной эксперимент:
-
-- cohort: 6684 человека, работавших в 2023 году;
-- Monte Carlo replications: 40;
-- simulation steps: 5;
-- paired random numbers;
-- aggregate matching threshold: 0.5 п.п.
-
-### Tested micro-errors
-
-1. Shuffle individual risk scores
-2. Collapse of heterogeneity
+1. Shuffle индивидуальных risk scores
+2. Collapse heterogeneity
 3. Persistence degradation
-4. Subgroup bias by age
-5. Subgroup bias by education
-6. Subgroup bias by sex
+4. Subgroup bias по возрасту
+5. Subgroup bias по образованию
+6. Subgroup bias по полу
 
-## Main result
+Проведено сравнение двух reference-моделей:
 
-Некоторые микроошибки практически не видны на первом шаге
-по агрегированным долям, но накапливаются в многошаговой
-симуляции.
+- Reference B — temperature scaling
+- Reference A — isotonic calibration
 
-Наиболее выраженный эффект дают:
+## Reproducibility
 
-- loss of persistence;
-- loss of heterogeneity;
-- loss of individual risk ranking.
-
-Subgroup bias может почти не менять агрегатную динамику,
-но существенно менять результаты отдельных групп.
+- 40 Monte Carlo replications
+- 5 simulation steps
+- Reference B: temperature scaling, T = 0.97
+- Reference A: isotonic calibration
+- Cohort: 6684 человека, работавших в 2023 году
 
 ## Repository structure
 
 ```text
 step_1/
-    current experiment, code, data and results
-
-step_2/
-    future refinement
-
-step_3/
-    future refinement
+    code
+    input data
+    experiment results
+    final report
