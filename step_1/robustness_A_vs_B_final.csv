@@ -1,0 +1,9 @@
+Perturbation,"Drift A, п.п.","Drift B, п.п.","Difference B−A, п.п."
+Shuffle,-2.3,-2.7,-0.5
+Half collapse (λ=0.5),-2.6,-3.2,-0.7
+Mode collapse (λ=0),-4.0,-5.0,-1.0
+Persistence 50%,-1.9,-2.4,-0.5
+Persistence 100%,-4.3,-4.8,-0.4
+Age bias (δ=0.5),+1.5,+1.6,+0.0
+Education bias (δ=0.5),+0.2,+0.3,+0.1
+Sex bias (δ=0.4),+0.2,+0.3,+0.1

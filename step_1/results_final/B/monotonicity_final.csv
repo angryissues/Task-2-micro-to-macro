@@ -1,0 +1,6 @@
+family,monotone_agg_drift_strict,monotone_agg_drift_within_MC_noise,monotone_max_subgroup_drift_strict,monotone_max_subgroup_drift_within_MC_noise
+collapse,True,True,True,
+persistence,True,True,True,
+subgroup_age,True,True,True,
+subgroup_educ,True,True,True,
+subgroup_sex,True,True,True,
