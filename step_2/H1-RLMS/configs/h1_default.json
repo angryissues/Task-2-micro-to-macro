@@ -1,0 +1,196 @@
+{
+ "name": "h1_default",
+ "alpha": 0.05,
+ "epsilon_grid": [
+  0.0,
+  0.001,
+  0.0025,
+  0.005,
+  0.01
+ ],
+ "epsilon_extra": [
+  0.02,
+  0.05,
+  0.1
+ ],
+ "missing_fractions": [
+  0.1,
+  0.2,
+  0.4
+ ],
+ "main": {
+  "n": 1000,
+  "k": 3,
+  "spreads": [
+   "close",
+   "moderate",
+   "distinct"
+  ],
+  "mechanisms": [
+   "MCAR",
+   "MAR",
+   "MNAR"
+  ],
+  "n_datasets": 5,
+  "n_masks": 20,
+  "past_n": 2000,
+  "n_fills": 30
+ },
+ "size": {
+  "n": [
+   50,
+   100,
+   300,
+   1000,
+   3000,
+   10000
+  ],
+  "k": 3,
+  "spread": "moderate",
+  "mechanism": "MCAR",
+  "n_datasets": 5,
+  "n_masks": 20
+ },
+ "kstudy": {
+  "k": [
+   2,
+   3,
+   5,
+   7
+  ],
+  "n": 1000,
+  "spreads": [
+   "close",
+   "moderate",
+   "distinct"
+  ],
+  "mechanism": "MCAR",
+  "missing": 0.2,
+  "n_datasets": 5,
+  "n_masks": 20
+ },
+ "c2": {
+  "n": 1000,
+  "k": 3,
+  "spreads": [
+   "close",
+   "moderate",
+   "distinct"
+  ],
+  "mechanisms": [
+   "MCAR",
+   "MNAR"
+  ],
+  "missing": 0.2,
+  "n_datasets": 10,
+  "n_masks": 20,
+  "oracle_half_widths": [
+   0,
+   2,
+   5,
+   10,
+   20,
+   50
+  ],
+  "violation_shifts": [
+   -20,
+   -10,
+   -5,
+   5,
+   10,
+   20
+  ],
+  "violation_half_width": 5,
+  "audit_sizes": [
+   10,
+   25,
+   50,
+   100
+  ],
+  "gammas": [
+   1.0,
+   1.5,
+   2.0,
+   4.0,
+   "inf"
+  ],
+  "widen": [
+   0.0,
+   0.02,
+   0.05
+  ]
+ },
+ "c3": {
+  "n": [
+   300,
+   1000,
+   3000
+  ],
+  "spreads": [
+   "close",
+   "moderate",
+   "distinct",
+   "extreme"
+  ],
+  "missing": [
+   0.2,
+   0.4
+  ],
+  "budget_fractions": [
+   0.1,
+   0.25,
+   0.5,
+   0.75
+  ],
+  "reps": 2000,
+  "epsilon_extra_c3": [
+   0.025,
+   0.05,
+   0.1
+  ],
+  "k": 3,
+  "dataset_seed": 0,
+  "mask_seed": 0
+ },
+ "c2stress": {
+  "n": 1000,
+  "k": 3,
+  "spreads": [
+   "moderate",
+   "distinct"
+  ],
+  "cases": [
+   [
+    "MCAR",
+    1.0
+   ],
+   [
+    "MNAR",
+    3.0
+   ]
+  ],
+  "missing": 0.4,
+  "shifts": [
+   -150,
+   -100,
+   -60,
+   -30,
+   30,
+   60,
+   100,
+   150
+  ],
+  "half_width": 5,
+  "n_datasets": 10,
+  "n_masks": 10,
+  "gammas": [
+   1.0,
+   2.0,
+   4.0
+  ],
+  "widen": [
+   0.0,
+   0.05
+  ]
+ }
+}

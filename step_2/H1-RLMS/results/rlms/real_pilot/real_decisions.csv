@@ -1,0 +1,17 @@
+method,epsilon,recommended,G,certified,status,guarantee_type,true_regret,missing_fraction
+C0,0.0,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.001,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.0025,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.005,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.01,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.02,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.05,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C0,0.1,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.0,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.001,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.0025,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.005,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.01,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.02,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.05,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0
+C1,0.1,p_hist_gradient_boosting,0.0,True,certified,finite_exact,,0.0

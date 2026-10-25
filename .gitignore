@@ -23,3 +23,5 @@ env/
 # IDE
 .vscode/
 .idea/
+
+step_2/data_processed/

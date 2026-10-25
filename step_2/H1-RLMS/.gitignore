@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Do not commit local/raw data unless permission and privacy have been checked
+data_raw/
+data_private/
+h1_real_input.csv.gz
+train.csv.gz
+test.csv.gz
+model_data.csv.gz
