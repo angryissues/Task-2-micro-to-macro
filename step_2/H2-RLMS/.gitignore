@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Data
+data/
+*.csv.gz
+
+# Results: keep summary CSV, exclude detailed traces
+results/*
+!results/*.csv
+
+# macOS
+.DS_Store
+__MACOSX/

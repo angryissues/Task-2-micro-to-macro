@@ -1,0 +1,11 @@
+{
+  "dataset": "RLMS controlled masking unequal-price development",
+  "missing_fraction": 0.2,
+  "n_masks": 30,
+  "n_rows": 1000,
+  "epsilon": 0.0025,
+  "price_values": [1, 2, 5],
+  "budgets": [0, 50, 100, 200, 400],
+  "policies": ["random", "stratified_random", "uncertainty", "hara_brier_adapter", "active_testing_brier_adapter", "q0", "q1", "q2", "q3"],
+  "seed": 20261101
+}

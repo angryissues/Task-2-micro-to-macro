@@ -1,0 +1,1 @@
+{"dataset":"RLMS controlled masking development","missing_fraction":0.1,"n_masks":30,"n_rows":1000,"epsilon":0.0025,"budgets":[0,25,50,100,200],"coda_prefilter_n":128,"policies":["random","stratified_random","uncertainty","hara_brier_adapter","active_testing_brier_adapter","q0","q1","q2","q3"],"seed":20261101}
