@@ -1,0 +1,10 @@
+{
+  "dataset": "RLMS full-cohort controlled masking",
+  "missing_fraction": 0.2,
+  "n_masks": 10,
+  "n_rows": 49651,
+  "epsilon": 0.0025,
+  "budgets": [0, 500, 1000, 2000],
+  "policies": ["random", "q1"],
+  "seed": 20261204
+}
