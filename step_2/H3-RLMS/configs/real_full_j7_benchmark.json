@@ -1,0 +1,14 @@
+{
+  "dataset": "RLMS full eligible j7 observed benchmark with matched-rate pseudo-nonresponse",
+  "n_rows": 212370,
+  "n_masks": 1,
+  "missing_mechanism": "mcar",
+  "missing_fraction": 0.00105365156119176,
+  "answer_probability": 0.5,
+  "epsilon": 0.0025,
+  "budgets": [50],
+  "policies": ["random"],
+  "r2_lower_margin": 0.15,
+  "r2_exploration": 0.1,
+  "seed": 20261114
+}

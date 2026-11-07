@@ -1,0 +1,17 @@
+{
+  "dataset": "RLMS H3 MNAR development",
+  "n_rows": 1000,
+  "n_masks": 30,
+  "missing_mechanism": "mnar",
+  "mnar_kappa": 2.0,
+  "missing_fraction": 0.2,
+  "response_mechanism": "mar",
+  "response_model_mode": "oracle",
+  "answer_probability": 0.5,
+  "epsilon": 0.0025,
+  "budgets": [100, 200],
+  "policies": ["random", "r0", "r1", "r2"],
+  "r2_lower_margin": 0.15,
+  "r2_exploration": 0.1,
+  "seed": 20261113
+}

@@ -25,3 +25,11 @@ env/
 .idea/
 
 step_2/data_processed/
+
+# Source and derived microdata: keep outside Git
+*.sav
+*.7z
+*.rds
+*.parquet
+step_2/H3-RLMS/results/real_profile/*.csv
+step_2/H3-RLMS/results/real_profile/*.json

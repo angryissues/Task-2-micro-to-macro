@@ -1,0 +1,11 @@
+{
+  "dataset": "RLMS H3 R3 scenario-C2 development",
+  "n_rows": 1000,
+  "n_masks": 30,
+  "missing_fraction": 0.2,
+  "gammas": [1.0, 1.5, 2.0, 4.0, "inf"],
+  "answer_probability": 0.5,
+  "epsilon": 0.0025,
+  "budgets": [100, 200],
+  "seed": 20261111
+}
