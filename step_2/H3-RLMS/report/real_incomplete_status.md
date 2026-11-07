@@ -115,6 +115,26 @@ worst/best-case диапазоне.
 проверка истинных 224 естественных неизвестных: их ответы по-прежнему не
 наблюдаются.
 
+## Связь с H1 transition target
+
+Дополнительный профиль по полному архиву проверил именно переходы `j1_t →
+j1_{t+1}`. Среди 474 600 person-wave строк получено 299 719 наблюдаемых
+бинарных переходов до возрастной очистки, 433 перехода с явным специальным
+nonresponse, 9 973 перехода с маршрутом `j1=2..4` и 98 905 строк без соседней
+волны. Обычных `NA` в этом маршруте не обнаружено. После правила удаления
+подозрительных текущих возрастных записей бинарный transition-массив H1 имеет
+299 161 строку.
+
+Для adult-eligible nonresponse-постановки, где оба интервью имеют `adult=1`,
+отдельный вход содержит 284 886 переходов: 284 671 наблюдаемый и 215
+неизвестных. Это другой, более узкий знаменатель; его нельзя смешивать с
+широким профилем 433 переходов.
+
+Это более прямой real-H3 endpoint для H1/H2, чем `j7`. Значения 433
+nonresponse-переходов также не восстанавливаются из архива; их можно оставить
+неизвестными и анализировать теми же bounds/sensitivity, не смешивая с
+структурными отсутствиями волн и не-бинарным маршрутом `j1=2..4`.
+
 - `results/real_profile/real_j7_benchmark_metadata.csv`
 - `results/real_profile/real_j7_observed_eligible.csv`
 - `results/real_profile/real_j7_unknown_eligible.csv`
@@ -146,3 +166,5 @@ worst/best-case диапазоне.
 - `scripts/profile_real_j7_panel_history.R`
 - `scripts/rank_real_j7_verification_queue.R`
 - `scripts/build_full_real_j7_h3_input.R`
+- `step_2/H1-RLMS/scripts/profile_full_transition_nonresponse.R`
+- `step_2/H1-RLMS/scripts/build_full_h1_transition_with_unknowns.R`
