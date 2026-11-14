@@ -1,0 +1,75 @@
+{
+  "train_rows": 73677,
+  "train_people": 15191,
+  "train_future_year_max": 2014,
+  "model_weights_frozen_across_pairs": true,
+  "person_disjoint_train_evaluation": true,
+  "config": {
+    "scope": "RLMS retrospective temporal transfer, one-year employment endpoint",
+    "train_target_year_max": 2014,
+    "person_hash_salt": "H6-v1:",
+    "train_buckets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "evaluation_buckets": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "temporal_pairs": [
+      [
+        2016,
+        2018
+      ],
+      [
+        2018,
+        2021
+      ],
+      [
+        2021,
+        2024
+      ]
+    ],
+    "age_lower_inclusive": 18,
+    "age_upper_exclusive": 65,
+    "candidate_models": [
+      "baseline",
+      "logistic",
+      "hgb"
+    ],
+    "global_epsilon": 0.0025,
+    "domain_oof_group_folds": 5,
+    "density_ratio_clip": [
+      0.2,
+      5.0
+    ],
+    "weak_overlap_ess_fraction": 0.25,
+    "t2_eta_grid": [
+      0,
+      0.25,
+      0.5,
+      1
+    ],
+    "t3_joint_tv_rho_grid": [
+      0,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "t4_query_budgets": [
+      25,
+      50,
+      100,
+      200
+    ],
+    "labels_future_available_only_to_evaluator_or_paid_oracle": true,
+    "new_independent_replication": false
+  },
+  "input_sha256": "bb22c195438f9af94210a51fb631f037c1ae37767ea4a07e3a6f8903a188d196"
+}

@@ -1,0 +1,6 @@
+__pycache__/
+local/
+microdata/
+*_predictions.csv
+*.sav
+*.7z

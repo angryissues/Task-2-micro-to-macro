@@ -1,0 +1,12 @@
+{
+  "python": "3.12.7",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "scipy": "1.13.1",
+  "sklearn": "1.5.1",
+  "source_sha256": {
+    "pilot.py": "4d0375e0bef32333cb8112607a3b76aabf2aec22ad84d7936a81968150baea2b",
+    "complete.py": "861f554ffe3c0545876d25fe0a3623935f9f08837397f57e9f9577647c9948ee",
+    "final_report.py": "f9dcf7290ec64c48aa7ea14bfe05d61c30b9d5f04f10459c74af71fc7364ca1d"
+  }
+}
