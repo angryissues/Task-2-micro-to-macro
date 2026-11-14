@@ -1,0 +1,13 @@
+scenario,policy,runs,certificate_rate,mean_cost,mean_failed,oracle_feasible_rate
+MAR,equal_age_random,50,0.16,1012.02,225.76,1.0
+MAR,global_Q3,50,0.16,1008.0,224.78,1.0
+MAR,group_bottleneck,50,0.16,987.14,219.92,1.0
+MNAR,equal_age_random,50,0.0,1014.26,265.48,1.0
+MNAR,global_Q3,50,0.0,1014.26,265.48,1.0
+MNAR,group_bottleneck,50,0.0,1014.26,265.48,1.0
+uniform,equal_age_random,50,1.0,938.34,0.0,1.0
+uniform,global_Q3,50,1.0,982.02,0.0,1.0
+uniform,group_bottleneck,50,1.0,866.24,0.0,1.0
+young_double_missing,equal_age_random,50,1.0,1058.26,0.0,1.0
+young_double_missing,global_Q3,50,1.0,1224.26,0.0,1.0
+young_double_missing,group_bottleneck,50,1.0,518.32,0.0,1.0

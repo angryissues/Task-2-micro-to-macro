@@ -1,0 +1,11 @@
+# Only code, reports and aggregate experiment outputs belong in this directory.
+local/
+microdata/
+*_predictions.csv
+*_model_input.csv
+full_transition.csv
+*.sav
+*.7z
+__pycache__/
+# Superseded preliminary numeric outputs are retained locally, not published.
+results/confirmatory/*.csv

@@ -1,0 +1,5 @@
+role,windows,people,start_year_min,start_year_max,previous_full_model_input_matches,unmatched_windows
+H5_test,3037,1697,2021,2022,3037,0
+H5_train,59777,11085,2000,2015,59777,0
+H5_validation,1628,1628,2018,2018,1628,0
+not_selected_in_completed_H5,89937,16272,2000,2022,89937,0

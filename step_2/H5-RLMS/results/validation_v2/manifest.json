@@ -1,0 +1,33 @@
+{
+  "full_rows": 1628,
+  "full_people": 1628,
+  "active_rows": 300,
+  "active_people": 300,
+  "audit_masks": 30,
+  "active_masks": 10,
+  "active_budget": 500,
+  "group_epsilon": 0.005,
+  "global_epsilon": 0.0025,
+  "query_unit": "one person-window-horizon binary label; cost=1 including failures",
+  "mask_unit": "shared person-horizon uniforms across repeated windows",
+  "groups": [
+    "all",
+    "age18_34",
+    "age35_49",
+    "age50_64",
+    "male",
+    "female",
+    "no_higher",
+    "higher"
+  ],
+  "checks": {
+    "exhaustive_exact_bounds": "pass",
+    "hidden_label_invariance": "pass",
+    "incremental_update": "pass",
+    "impossible_requirement": "pass",
+    "added_candidate_restores_feasibility": "pass",
+    "failed_query_preserves_interval": "pass",
+    "q3_matches_two_outcome_enumeration": "pass"
+  },
+  "scope": "retrospective corrected held-out experiment; earlier test results were already seen; no claim of pristine preregistration"
+}

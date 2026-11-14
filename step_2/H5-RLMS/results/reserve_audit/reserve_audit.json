@@ -1,0 +1,12 @@
+{
+  "archive_rows": 474600,
+  "archive_people": 62841,
+  "archive_year_min": 1994,
+  "archive_year_max": 2025,
+  "old_transition_rows": 299161,
+  "old_transition_people": 40496,
+  "eligible_h5_windows_all_years": 154379,
+  "eligible_h5_people_all_years": 22500,
+  "eligible_windows_without_old_input_match": 0,
+  "provenance_limit": "No complete append-only run/access log; eligibility/key membership is not proof that each raw value was individually viewed. Old all-input aggregate evaluations and observed H5 preliminary all-row audit prevent claiming a pristine reserve for this endpoint."
+}

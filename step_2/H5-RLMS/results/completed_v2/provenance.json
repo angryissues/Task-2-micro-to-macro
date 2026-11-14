@@ -1,0 +1,52 @@
+{
+  "cohorts": {
+    "train": {
+      "rows": 59777,
+      "people": 11085,
+      "start_min": 2000,
+      "start_max": 2015,
+      "future_min": 2001,
+      "future_max": 2018
+    },
+    "validation": {
+      "rows": 1628,
+      "people": 1628,
+      "start_min": 2018,
+      "start_max": 2018,
+      "future_min": 2019,
+      "future_max": 2021
+    },
+    "test": {
+      "rows": 3037,
+      "people": 1697,
+      "start_min": 2021,
+      "start_max": 2022,
+      "future_min": 2022,
+      "future_max": 2025
+    }
+  },
+  "sex_mapping": {
+    "1": "male",
+    "2": "female"
+  },
+  "higher_education_codes": [
+    21,
+    22,
+    23
+  ],
+  "education_source": "SAV value labels educ: 21 diploma, 22/23 postgraduate; 19/20 incomplete higher education excluded from higher",
+  "features": [
+    "age",
+    "sex",
+    "education",
+    "current_employment"
+  ],
+  "train_end_year": 2018,
+  "test_start_year": 2021,
+  "test_future_years": [
+    2022,
+    2025
+  ],
+  "guarantee": "finite fixed complete-path cohort, unweighted; not population representativeness",
+  "selection": "complete adult binary future path and original cleaned H1 baseline record"
+}

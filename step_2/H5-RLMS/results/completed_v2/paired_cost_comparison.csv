@@ -1,0 +1,5 @@
+scenario,baseline,n_masks,mean_saved_queries,median_saved_queries,minimum_saved,maximum_saved,fraction_masks_bottleneck_cheaper,relative_mean_cost_reduction
+uniform,global_Q3,50,115.78,87.0,-117,671,0.78,0.11789983910714652
+uniform,equal_age_random,50,72.1,20.0,-137,629,0.52,0.07683781997996464
+young_double_missing,global_Q3,50,705.94,751.5,-41,820,0.98,0.5766258801235031
+young_double_missing,equal_age_random,50,539.94,583.0,-154,698,0.94,0.5102148810311264
