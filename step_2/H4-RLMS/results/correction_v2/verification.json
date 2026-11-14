@@ -1,0 +1,27 @@
+{
+  "unit_tests": {
+    "command": "python -m pytest tests -q -p no:cacheprovider",
+    "passed": 15,
+    "failed": 0
+  },
+  "legacy_cli_comparison": {
+    "case": "legacy30_5",
+    "records": 75,
+    "all_equal": true
+  },
+  "provenance": {
+    "manifest_code_hashes_match": true,
+    "config_matches_manifest": true,
+    "predictions_refit": false,
+    "nlsy97_frozen_config_and_code_unchanged": true
+  },
+  "data_boundary": {
+    "results_are_aggregate_experiments": true,
+    "person_ids_and_person_outcomes_absent": true,
+    "source_predictions_git_ignored": true
+  },
+  "false_certificates": 0,
+  "legacy_runs": 291,
+  "main_runs": 750,
+  "scope": "Retrospective controlled correction; no population coverage or independent new confirmation claim"
+}

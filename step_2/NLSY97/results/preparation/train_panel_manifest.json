@@ -1,0 +1,19 @@
+{
+  "split": "train",
+  "people_in_extract": 5392,
+  "eligible_windows": 47092,
+  "eligible_people": 5253,
+  "calendar_target_years": [
+    1980,
+    2013
+  ],
+  "origin_year_min": 1998,
+  "origin_year_max": 2010,
+  "rows_selected_using_outcomes": false,
+  "outcome_metrics_inspected": false,
+  "features_employment_week_ends_before_interview_month": true,
+  "education": "round-specific archival interview value; no CVC cross-round feature; not a historical vintage guarantee",
+  "crosswalk_sha256": "e7fa29d5a793a3ed155713afbec59b0ef111a6c4fa902951bd194f037d53b310",
+  "known_h1": 45979,
+  "known_complete_path_h123": 44787
+}

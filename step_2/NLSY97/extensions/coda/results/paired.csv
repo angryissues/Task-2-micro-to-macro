@@ -1,0 +1,5 @@
+policy,reference,budget,both_success,mean_cost_saved_if_both_success,fraction_cheaper_if_both_success,min_saved,max_saved
+CODA_bridge,random,200,100,2.37,0.65,-7,13
+CODA_bridge,Q2,200,100,-9.9,0.0,-19,-1
+CODA_conditioned,random,200,100,1.62,0.58,-12,12
+CODA_conditioned,Q2,200,100,-10.65,0.0,-19,-4

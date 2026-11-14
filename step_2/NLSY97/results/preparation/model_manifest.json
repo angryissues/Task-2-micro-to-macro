@@ -1,0 +1,22 @@
+{
+  "features": [
+    "age",
+    "sex",
+    "current_employment"
+  ],
+  "education_excluded_from_predictors": "round-specific edited archival education may not match historical release vintage; used only as an archived grouping variable",
+  "models": {
+    "annual_1": {
+      "train_rows": 45979
+    },
+    "annual_2": {
+      "train_rows": 45600
+    },
+    "annual_3": {
+      "train_rows": 45271
+    }
+  },
+  "metrics_evaluated_on_confirmation": false,
+  "train_people": 5253,
+  "source_train_sha256": "9f09a43886ab0b247c073d0d6cd85f35b854a26103e883aa0535361272ee88f2"
+}

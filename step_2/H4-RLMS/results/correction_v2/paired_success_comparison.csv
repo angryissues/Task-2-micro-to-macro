@@ -1,0 +1,11 @@
+block_cost,mode,paired_success_masks,mean_saved_cost_if_both_success,cheaper_fraction_if_both_success
+0.5,block_only,50,59.74,1.0
+0.5,mixed,50,59.74,1.0
+1.0,block_only,50,20.76,1.0
+1.0,mixed,50,20.76,1.0
+1.5,block_only,50,-18.22,0.02
+1.5,mixed,50,6.91,0.88
+3.0,block_only,7,-112.71428571428571,0.0
+3.0,mixed,50,-1.54,0.12
+4.5,block_only,0,,
+4.5,mixed,50,-2.32,0.06

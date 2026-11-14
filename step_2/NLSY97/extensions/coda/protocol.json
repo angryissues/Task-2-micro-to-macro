@@ -1,0 +1,45 @@
+{
+  "scope": "Post-primary extension on already accessed NLSY97 confirmation, not new independent confirmation",
+  "masks": 100,
+  "mask_seed": 42000,
+  "policy_seed": 52000,
+  "missing_fraction": 0.2,
+  "budgets": [
+    0,
+    25,
+    50,
+    100,
+    200
+  ],
+  "epsilon": 0.0025,
+  "cohort": "latest window per person, then complete y1/y2/y3; identical to original H2",
+  "horizon": 3,
+  "models": [
+    "baseline",
+    "logistic",
+    "hgb"
+  ],
+  "coda": {
+    "prefilter_n": 128,
+    "alpha": 0.9,
+    "learning_rate": 0.01,
+    "multiplier": 2,
+    "q": "eig",
+    "disable_diag_prior": false
+  },
+  "policies": [
+    "random",
+    "Q2",
+    "CODA_bridge",
+    "CODA_conditioned"
+  ],
+  "known_labels": {
+    "CODA_bridge": "C1 only, excluded from posterior, same RLMS bridge ablation",
+    "CODA_conditioned": "C1 and author add_label in stable row order, free initially known labels"
+  },
+  "certificate": "Common exact C1 Brier, not author accuracy objective/stop",
+  "author_repository": "https://github.com/justinkay/coda",
+  "author_commit": "c76c3fca32bd42c6195bed9102ca735b234c4a4e",
+  "parameter_selection": "No NLSY97 tuning; RLMS prefilter128 and upstream posterior defaults",
+  "torch_threads": 1
+}

@@ -1,0 +1,132 @@
+{
+  "config": {
+    "scope": "RLMS H4 retrospective correction, not new independent confirmation",
+    "predictions": "existing h4_frozen_predictions.csv, do not refit",
+    "epsilon": 0.0025,
+    "missing_probability": 0.2,
+    "mask_seed_base": 20261117,
+    "block_prices": [
+      0.5,
+      1,
+      1.5,
+      3,
+      4.5
+    ],
+    "modes": [
+      "point_only",
+      "block_only",
+      "mixed"
+    ],
+    "query_score": "current minimax value minus worst post-answer minimax value, divided by price, for BOTH query types",
+    "tie_break": "worst-case width reduction per cost, cheaper action, lower row/horizon; exact identical actions prefer point",
+    "legacy_replays": [
+      {
+        "name": "legacy100_1",
+        "n": 100,
+        "masks": 1,
+        "budget": 20,
+        "prices": [
+          1.5,
+          3,
+          4.5
+        ]
+      },
+      {
+        "name": "legacy60_3",
+        "n": 60,
+        "masks": 3,
+        "budget": 20,
+        "prices": [
+          1.5,
+          3,
+          4.5
+        ]
+      },
+      {
+        "name": "legacy60_10",
+        "n": 60,
+        "masks": 10,
+        "budget": 20,
+        "prices": [
+          1.5,
+          3,
+          4.5
+        ]
+      },
+      {
+        "name": "legacy100_5",
+        "n": 100,
+        "masks": 5,
+        "budget": 20,
+        "prices": [
+          1.5,
+          3,
+          4.5
+        ]
+      },
+      {
+        "name": "legacy40_5",
+        "n": 40,
+        "masks": 5,
+        "budget": 20,
+        "prices": [
+          1.5,
+          3,
+          4.5
+        ]
+      },
+      {
+        "name": "legacy30_5",
+        "n": 30,
+        "masks": 5,
+        "budget": 20,
+        "prices": [
+          0.5,
+          1,
+          1.5,
+          3,
+          4.5
+        ]
+      }
+    ],
+    "main": {
+      "people_max": 300,
+      "masks": 50,
+      "budget": 200,
+      "baseline_age": [
+        18,
+        65
+      ],
+      "age_upper_exclusive": true,
+      "start_adult": 1,
+      "start_employment": 1,
+      "start_year_min": 2021,
+      "end_year_max": 2025,
+      "model_person_split": "test",
+      "window": "latest eligible complete window per person",
+      "selection": "SHA256(RLMS-H4-correction-v2: plus integer respondent ID)",
+      "independent_new_dataset": false
+    },
+    "P0_fix": "Use exact first-exit marginal supports including all-known-one prefixes; P0 is exact on complete paths",
+    "legacy_interpretation": "engineering replay on historical head(n) rows; repeated persons/windows are not an independent cost study",
+    "price_interpretation": "assumed query costs, not measured recontact expenses"
+  },
+  "input_sha256": "562ce8d8e91620fd98894ef50ad17e657b6d3faec6246b116efb415feac6e685",
+  "code_sha256": {
+    "src/block_queries.py": "e48b361e07a24707b2e7be41cd5fd3a3c733ed8c7bd8fbc3614c17f57b81261b",
+    "src/trajectory_bounds.py": "7f129b9860ce99cc08e5d20de6d921102cf79437a3eb51cbe83b3479524372d5",
+    "scripts/recalculate_p2.py": "d800100464b521f340fd34f15316089c43bf95edd11d0b72eeb946516158b796",
+    "scripts/run_p2_block_queries.py": "186e2400d36f08b3dbb24b06325eeb23e055ee3de79e8c8467c87c8d299da8e3"
+  },
+  "predictions_refit": false,
+  "eligible_unique_people": 6076,
+  "main_people": 300,
+  "main_future_year_min": 2022,
+  "main_future_year_max": 2025,
+  "main_person_disjoint_from_model_train": true,
+  "legacy_runs": 291,
+  "main_runs": 750,
+  "false_certificates": 0,
+  "elapsed_seconds": 29.292865332681686,
+  "scope": "retrospective correction, legacy replay plus unique-person future cohort; scenario prices"
+}

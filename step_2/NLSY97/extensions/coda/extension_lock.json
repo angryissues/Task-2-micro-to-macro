@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-14T19:32:51.944028+00:00",
+  "scope": "Post-primary addition, confirmation already accessed; no new independent test",
+  "config_sha256": "f2766269e83daa2222847be33ab2352cf1ec42de350e0d85373796b56a07a0ae",
+  "runner_sha256": "f12f5ae0a2475c3831b42e65aebdaab0cbf7deb4b148f414cae63ce1f8e92f2e",
+  "test_sha256": "99dcd6e9af43e299d802c043b30aaf601deaf76f25394b405f156ab0ead224a3",
+  "primary_protocol_unchanged": true,
+  "author_commit": "c76c3fca32bd42c6195bed9102ca735b234c4a4e",
+  "author_sha256": {
+    "coda/options.py": "99e5c3b1a9aad7fc121645719dcf5153494a9bf527c15bfd684b1a2307b32b59",
+    "coda/util.py": "9558c37f664d42ac10692ffbf0a6ce280171cf413331cf0cbe5165e725914369",
+    "coda/datasets.py": "3e09c7da22fd27bbe1f8ec3d52513a5239180759daf6ff43f8e50b4520357375",
+    "coda/__init__.py": "f8cc8efebb8feb906879253b933d003d75d85a4e9dd3e3205321ba5fb789091b",
+    "coda/coda.py": "c7939a25d6e288700ddf699a00143f66fa1a1b4ef825dd19ca8f6af82b11efde",
+    "coda/oracle.py": "8539b359ac3965e8b4355c7bdada7d69c8077b0335aedae5f6be78869e33b91e",
+    "coda/base.py": "c3988fd0bc97aab7c6ba801c41be34cce98dc8c4161bd7aa70be1e8351561521",
+    "coda/baselines/vma.py": "5258e82ff7a67ae89bdb7799319ce777a5d4125987af3b0cbe32d28c0df782d7",
+    "coda/baselines/iid.py": "5177077a1888e51fe582b5b520bca9bbae3cf1f0ad4650e8d7d1d42c1fc0ee41",
+    "coda/baselines/__init__.py": "7624a3f73d9c0290db5b4256fc6922c2a4568d2a538e7bae431235d4c9f2ff39",
+    "coda/baselines/uncertainty.py": "ab8746f771855b2fc12c007b7b0843f4168c41b62bfb6e731556cc48865eb93b",
+    "coda/baselines/activetesting.py": "f8852d7ac89f7210bbc4d8751edbf7088fbf8581b0b14fe343e110fc5a2afa6c",
+    "coda/baselines/modelpicker.py": "4575e474d8b02d571f04900a1573e124ff1718ae0045a70185b971f402829f36"
+  },
+  "reference_sha256": {
+    "step_2/H2-RLMS/src/active_selection.py": "2c6ae2032112da09fd8fc5362eaf0ee79be9a0e46679011b500f1bdd3703a716",
+    "step_2/NLSY97/scripts/replicate.py": "f7def444b5db9b866fb35e200098b4fcfb628914973a4d8bab885f9a0fca12a2",
+    "step_2/NLSY97/configs/experiment_protocol_v1.json": "a44a6ec3ffbd5c5e36f368a5d654cefc5f292f8175446dead1dadb80888145c0",
+    "step_2/NLSY97/configs/confirmation_lock.json": "4b3325fdb86901eb14ee0bc4e0d50ccddd273bf06d15f115df58cb03dae9d6ab"
+  },
+  "tests_passed_before_extension": 4,
+  "technical_corrections_before_freeze": [
+    "Initialize original Q2 eligible public indices, detected by synthetic test"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "selected_columns": 11843,
+  "families": {
+    "demographics": 3,
+    "education_at_interview": 56,
+    "employment_auxiliary_and_quality": 10078,
+    "interview_timing_and_response": 106,
+    "respondent_id": 1,
+    "weekly_employment": 1599
+  },
+  "weekly_year_min": 1994,
+  "weekly_year_max": 2024,
+  "protocol_sha256": "5b0cf3073722991f50f5661823baa1cae2441e22a057e041be9e03803aa7d9e3",
+  "holdout_performance_inspected": false,
+  "holdout_outcome_frequencies_inspected": false,
+  "respondents": 8984,
+  "source_columns": 305325,
+  "person_counts": {
+    "train": 5392,
+    "development": 1787,
+    "confirmation": 1805
+  },
+  "split_person_disjoint": true,
+  "extraction_rule": "all rows, metadata-selected columns, no label-dependent filtering",
+  "protocol_fixed_before_person_values": true,
+  "created_utc": "2026-11-14T17:10:08.326565+00:00"
+}

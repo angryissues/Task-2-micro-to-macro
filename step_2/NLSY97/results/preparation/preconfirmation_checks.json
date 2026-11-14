@@ -1,0 +1,19 @@
+{
+  "vectorized_Q2_Q3_match_H2_reference_20_cases": true,
+  "hidden_label_invariance": true,
+  "P1_tighter_than_independent_exit_marginals": true,
+  "endpoint_and_additive_equal_without_extra_constraints": true,
+  "fully_known_paths_exact_in_both_modes": true,
+  "employment_codes_and_ambiguity": true,
+  "subgroup_reference_checks": {
+    "exhaustive_exact_bounds": "pass",
+    "hidden_label_invariance": "pass",
+    "incremental_update": "pass",
+    "impossible_requirement": "pass",
+    "global_certificate_can_fail_groups": "pass",
+    "added_candidate_restores_feasibility": "pass",
+    "failed_query_preserves_interval": "pass",
+    "q3_matches_two_outcome_enumeration": "pass",
+    "g1_and_g2_have_distinct_objectives": "pass"
+  }
+}

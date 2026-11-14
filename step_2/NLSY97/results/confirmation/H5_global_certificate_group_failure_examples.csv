@@ -1,0 +1,13 @@
+scenario,rep,policy,method,model,certified,true_max_group_regret
+uniform,0,global_Q3,G0,hgb,True,0.0443086440434233
+uniform,0,equal_age_random,G0,hgb,True,0.0443086440434233
+uniform,0,group_bottleneck,G0,hgb,True,0.0443086440434233
+uniform,1,global_Q3,G0,hgb,True,0.0443086440434233
+uniform,1,equal_age_random,G0,hgb,True,0.0443086440434233
+uniform,1,group_bottleneck,G0,hgb,True,0.0443086440434233
+uniform,2,global_Q3,G0,hgb,True,0.0443086440434233
+uniform,2,equal_age_random,G0,hgb,True,0.0443086440434233
+uniform,2,group_bottleneck,G0,hgb,True,0.0443086440434233
+uniform,3,global_Q3,G0,hgb,True,0.0443086440434233
+uniform,3,equal_age_random,G0,hgb,True,0.0443086440434233
+uniform,3,group_bottleneck,G0,hgb,True,0.0443086440434233

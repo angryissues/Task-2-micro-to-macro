@@ -12,7 +12,7 @@ def admissible_paths(observed):
     return out
 
 def first_exit(path):
-    return np.maximum.accumulate(path==0).astype(float)
+    return np.maximum.accumulate(np.asarray(path)==0).astype(float)
 
 def loss(path, prediction, target='endpoint'):
     p=np.asarray(prediction,dtype=float); y=np.asarray(path,dtype=float)
@@ -33,13 +33,12 @@ def bounds(predictions, observed_paths, target='endpoint', weights=None, mode='p
         for a in range(k):
             for b in range(a+1,k):
                 if mode=='p0' and target=='first_exit':
-                    vals=[]
-                    for exits in product((0,1), repeat=h):
-                        feasible=True
-                        for t in range(h):
-                            if np.any(obs[i,:t+1]==0) and exits[t]!=1: feasible=False
-                        if feasible:
-                            vals.append(float(np.mean((p[i,:,a]-exits)**2)-np.mean((p[i,:,b]-exits)**2)))
+                    # Exact independent exit marginals, including known-zero
+                    # exits from observed all-one prefixes. Old P0 lost these.
+                    possible=np.array([first_exit(path) for path in paths])
+                    marginals=[np.unique(possible[:,t]) for t in range(h)]
+                    vals=[float(np.mean((p[i,:,a]-np.asarray(exits))**2)-np.mean((p[i,:,b]-np.asarray(exits))**2))
+                          for exits in product(*marginals)]
                 else:
                     vals=[loss(path,p[i,:,a],target)-loss(path,p[i,:,b],target) for path in paths]
                 lo[a,b]+=w[i]*min(vals); up[a,b]+=w[i]*max(vals)

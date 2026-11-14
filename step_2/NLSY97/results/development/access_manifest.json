@@ -1,0 +1,10 @@
+{
+  "split": "development",
+  "hypotheses": [
+    "H1"
+  ],
+  "config_sha256": "a44a6ec3ffbd5c5e36f368a5d654cefc5f292f8175446dead1dadb80888145c0",
+  "code_sha256": "f7def444b5db9b866fb35e200098b4fcfb628914973a4d8bab885f9a0fca12a2",
+  "created_utc": "2026-11-14T17:45:42.721983+00:00",
+  "source": "fixed predictions; no refitting or parameter selection on confirmation"
+}

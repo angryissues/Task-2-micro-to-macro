@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "H1": 10800,
+    "H2": 900,
+    "H3": 600,
+    "H3_Gamma": 150,
+    "H4_P0_P1": 120,
+    "H4_P2": 300,
+    "H5": 360,
+    "H6_T4": 10800
+  },
+  "report_created_utc": "2026-11-14T18:08:18.604489+00:00",
+  "lock_sha256": "4b3325fdb86901eb14ee0bc4e0d50ccddd273bf06d15f115df58cb03dae9d6ab",
+  "all_primary_stages_completed": true,
+  "full_original_paper_baseline_program_completed": false,
+  "python": "3.12.7"
+}

@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "T2_greedy_matches_100_linear_programs": 2.498001805406602e-16,
+    "T2_monotone_in_eta": true,
+    "T2_eta0_equals_C1": true,
+    "T2_permitted_reweighting_covered": true,
+    "T3_known_joint_TV_bound": true,
+    "T3_bound_monotone_in_rho": true,
+    "T3_iid_synthetic_coverage_100": 1.0,
+    "conditional_shift_counterexample": true,
+    "covariate_shift_positive_control": true,
+    "T4_C1_direct_formula": true,
+    "T4_hidden_labels_do_not_change_state_or_policy": true,
+    "T4_vectorized_Q2_matches_H2_reference": true
+  },
+  "counterexample": {
+    "old_winner": 0,
+    "new_winner": 1,
+    "old_choice_new_regret": 0.6400000000000001,
+    "X_distribution_change": 0.0,
+    "joint_TV": 0.8
+  },
+  "positive_control": {
+    "T0_regret": 0.512,
+    "T1_known_clipped_weights_regret": 0.0,
+    "scope": "mechanism check with known ratios; no proof of estimated RLMS weights"
+  },
+  "C3_coverage_failure_checkpoints": 0,
+  "C3_coverage_scope": "simultaneous all budgets, 3 cohorts, scenarios, repetitions by union bound; uniform sampling of attempts without replacement, no iid panel assumption",
+  "runs": 10800,
+  "repetitions": 100,
+  "new_labels_initially_observed": 0,
+  "primary_active_policy": "H2 Q2, selected in H2 for unit query costs",
+  "additional_active_policy": "H2 Q1, previous full-RLMS comparator",
+  "script_sha256": "861f554ffe3c0545876d25fe0a3623935f9f08837397f57e9f9577647c9948ee"
+}

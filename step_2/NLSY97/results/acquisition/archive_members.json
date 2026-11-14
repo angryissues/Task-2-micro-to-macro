@@ -1,0 +1,51 @@
+[
+  {
+    "name": "nlsy97_all_1997-2023.cdb",
+    "compressed": 19808284,
+    "crc32": 1205225268,
+    "offset": 0,
+    "method": 8
+  },
+  {
+    "name": "nlsy97_all_1997-2023.sdf",
+    "compressed": 3790294,
+    "crc32": 1257339846,
+    "offset": 19808338,
+    "method": 8
+  },
+  {
+    "name": "nlsy97_all_1997-2023.sas",
+    "compressed": 10735168,
+    "crc32": 2461545018,
+    "offset": 23598686,
+    "method": 8
+  },
+  {
+    "name": "nlsy97_all_1997-2023.R",
+    "compressed": 11915270,
+    "crc32": 2739286462,
+    "offset": 34333908,
+    "method": 8
+  },
+  {
+    "name": "nlsy97_all_1997-2023.NLSY97",
+    "compressed": 696578,
+    "crc32": 2928588929,
+    "offset": 46249230,
+    "method": 8
+  },
+  {
+    "name": "nlsy97_all_1997-2023.csv",
+    "compressed": 214601721,
+    "crc32": 3171525551,
+    "offset": 46945865,
+    "method": 8
+  },
+  {
+    "name": "nlsy97_all_1997-2023.dat",
+    "compressed": 213914072,
+    "crc32": 2536852210,
+    "offset": 261547660,
+    "method": 8
+  }
+]

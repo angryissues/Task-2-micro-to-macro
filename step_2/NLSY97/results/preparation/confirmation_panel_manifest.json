@@ -1,0 +1,17 @@
+{
+  "split": "confirmation",
+  "people_in_extract": 1805,
+  "eligible_windows": 2779,
+  "eligible_people": 1506,
+  "calendar_target_years": [
+    2018,
+    2023
+  ],
+  "origin_year_min": 2017,
+  "origin_year_max": 2020,
+  "rows_selected_using_outcomes": false,
+  "outcome_metrics_inspected": false,
+  "features_employment_week_ends_before_interview_month": true,
+  "education": "round-specific archival interview value; no CVC cross-round feature; not a historical vintage guarantee",
+  "crosswalk_sha256": "e7fa29d5a793a3ed155713afbec59b0ef111a6c4fa902951bd194f037d53b310"
+}

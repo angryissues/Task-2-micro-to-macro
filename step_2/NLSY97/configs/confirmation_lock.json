@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-14T17:47:11.850780+00:00",
+  "confirmation_metrics_previously_accessed": false,
+  "registry": "local protocol/code snapshot, not an external preregistration registry",
+  "experiment_config_sha256": "a44a6ec3ffbd5c5e36f368a5d654cefc5f292f8175446dead1dadb80888145c0",
+  "code_sha256": {
+    "build_panel.py": "14d6dd218fec664ce2a1147d919a39d295af131ea6153027433160de83c94fb0",
+    "fit_models.py": "fc3355b161bb032dc707d4e9ae8788bd36757d77f8a404b50335fcc5aaf0baaf",
+    "replicate.py": "f7def444b5db9b866fb35e200098b4fcfb628914973a4d8bab885f9a0fca12a2",
+    "paths_groups.py": "9f14b824c5b4a09c2021d3a54795e86823636fa8ad6e9b9e2b7f9179a0f6e475",
+    "transfer.py": "8808e7e7312649fa2068c63bd0c1bb590deb2fd6731a0a4188dec87d1d775150",
+    "checks.py": "97812ca2963617c37477e9971013e2304b6fb37eb10a34d41b60d7713fcf1da5",
+    "run_locked.py": "5c7eda83c24fb9926d5856647b85612563528f345bc17c82981067340a507e99"
+  },
+  "reference_code_sha256": {
+    "step_2/H1-RLMS/src/bounds.py": "2567b72fa3c1df3c98ded4fd968a97fa2712ad85f09a8d4a8e824d20491d0e33",
+    "step_2/H2-RLMS/src/active_selection.py": "2c6ae2032112da09fd8fc5362eaf0ee79be9a0e46679011b500f1bdd3703a716",
+    "step_2/H5-RLMS/scripts/analysis.py": "e434ebb28c748518e4dd40c7f6bee473bc0e5a9e8971de71bd0500a0b00ebcbf",
+    "step_2/H6-RLMS/scripts/complete.py": "861f554ffe3c0545876d25fe0a3623935f9f08837397f57e9f9577647c9948ee",
+    "step_2/H6-RLMS/scripts/pilot.py": "4d0375e0bef32333cb8112607a3b76aabf2aec22ad84d7936a81968150baea2b"
+  },
+  "development_corrections_before_freeze": [
+    "outcome calendar blocks use END of target week, not start",
+    "pandas any(axis=1) compatibility fix",
+    "C1 comparison on the same paid audit labels as C3",
+    "include age18-29 in development where represented; absent groups never claimed as confirmed",
+    "H4 point and block scoring enumerate unknown answers instead of using oracle gains"
+  ],
+  "scope_note": "Primary external H1-H6 experiment; full author-paper estimators/CODA not included; no new forecast-vintage guarantee"
+}

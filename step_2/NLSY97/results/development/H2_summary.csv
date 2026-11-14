@@ -1,0 +1,10 @@
+scenario,policy,runs,certificate_rate,mean_cost,mean_failed,mean_G
+complete_response,ActiveTesting_adapter,100,1.0,142.36,0.0,0.00245785616440795
+complete_response,Hara_adapter,100,1.0,132.63,0.0,0.0024594792172504825
+complete_response,Q0,100,1.0,115.88,0.0,0.002472092409910637
+complete_response,Q1,100,1.0,104.31,0.0,0.0024678619200559325
+complete_response,Q2,100,1.0,104.31,0.0,0.0024678619200559325
+complete_response,Q3,100,1.0,110.86,0.0,0.0024675492060800774
+complete_response,random,100,1.0,140.97,0.0,0.00245495905498537
+complete_response,stratified,100,1.0,140.97,0.0,0.00245495905498537
+complete_response,uncertainty,100,1.0,149.02,0.0,0.0024654095001342556

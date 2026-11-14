@@ -1,0 +1,9 @@
+{
+  "n": 1369,
+  "unknown": 73,
+  "model": "hgb",
+  "G": 4.0472348986413825e-05,
+  "certified": true,
+  "true_regret": null,
+  "scope": "archival unresolved statuses include nonresponse/ambiguity/structural lack of followup; not all are item refusals"
+}

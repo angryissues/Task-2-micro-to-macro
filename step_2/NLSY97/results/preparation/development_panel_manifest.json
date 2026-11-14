@@ -1,0 +1,19 @@
+{
+  "split": "development",
+  "people_in_extract": 1787,
+  "eligible_windows": 1369,
+  "eligible_people": 1369,
+  "calendar_target_years": [
+    2014,
+    2017
+  ],
+  "origin_year_min": 2013,
+  "origin_year_max": 2014,
+  "rows_selected_using_outcomes": false,
+  "outcome_metrics_inspected": false,
+  "features_employment_week_ends_before_interview_month": true,
+  "education": "round-specific archival interview value; no CVC cross-round feature; not a historical vintage guarantee",
+  "crosswalk_sha256": "e7fa29d5a793a3ed155713afbec59b0ef111a6c4fa902951bd194f037d53b310",
+  "known_h1": 1330,
+  "known_complete_path_h123": 1283
+}

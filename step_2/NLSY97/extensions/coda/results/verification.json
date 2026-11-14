@@ -1,0 +1,42 @@
+{
+  "all_masks": 100,
+  "aggregate_records": 2000,
+  "policy_runs": 400,
+  "budget_checkpoints_per_policy": 5,
+  "false_certificates": 0,
+  "original_random_Q2_match_all_masks": true,
+  "pre_freeze_tests_passed": 4,
+  "source_manifests": [
+    {
+      "utc": "2026-11-14T19:32:56.064881+00:00",
+      "lock_sha256": "d216f5af9bf1f0a1d70dc00fc5ada98d2e6c7844921a48beca54ac3673a6e32a",
+      "scope": "Post-primary extension on already accessed NLSY97 confirmation, not new independent confirmation",
+      "input_sha256": "d6bd9d68aa1e447a4bfbf611d599a6c02b77e3a0337361d9089b01505c84a5ac",
+      "n": 1261,
+      "mask_start": 0,
+      "mask_stop": 1,
+      "elapsed_seconds": 2.123830874916166,
+      "python": "3.12.7",
+      "torch": "2.15.0",
+      "numpy": "1.26.4",
+      "original_random_Q2_match": true,
+      "false_certificates": 0
+    },
+    {
+      "utc": "2026-11-14T19:33:05.457046+00:00",
+      "lock_sha256": "d216f5af9bf1f0a1d70dc00fc5ada98d2e6c7844921a48beca54ac3673a6e32a",
+      "scope": "Post-primary extension on already accessed NLSY97 confirmation, not new independent confirmation",
+      "input_sha256": "d6bd9d68aa1e447a4bfbf611d599a6c02b77e3a0337361d9089b01505c84a5ac",
+      "n": 1261,
+      "mask_start": 1,
+      "mask_stop": 100,
+      "elapsed_seconds": 170.45740408310667,
+      "python": "3.12.7",
+      "torch": "2.15.0",
+      "numpy": "1.26.4",
+      "original_random_Q2_match": true,
+      "false_certificates": 0
+    }
+  ],
+  "data_scope": "No person IDs or person-level labels in exports"
+}

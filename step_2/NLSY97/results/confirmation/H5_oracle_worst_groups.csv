@@ -1,0 +1,4 @@
+group,n,small_group,horizon,model,brier,true_regret
+education_unknown,7,True,2,hgb,0.1424487327783608,0.0443086440434233
+education_unknown,7,True,1,logistic,0.1170768972629877,0.0330211063197697
+education_unknown,7,True,1,baseline,0.1152437531230652,0.0311879621798472

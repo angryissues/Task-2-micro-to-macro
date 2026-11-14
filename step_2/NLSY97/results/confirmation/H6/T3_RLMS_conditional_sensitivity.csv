@@ -1,0 +1,13 @@
+old_year,new_year,rho,model,G,conditional_certificate,rho_known_on_RLMS,unconditional_future_certificate
+2015,2019,0.0,hgb,0.0,True,False,False
+2015,2019,0.01,hgb,0.01209326655633308,False,False,False
+2015,2019,0.03,hgb,0.052093266556333076,False,False,False
+2015,2019,0.1,hgb,0.1920932665563331,False,False,False
+2019,2021,0.0,hgb,0.0,True,False,False
+2019,2021,0.01,hgb,0.012498941708192275,False,False,False
+2019,2021,0.03,hgb,0.052498941708192276,False,False,False
+2019,2021,0.1,hgb,0.1924989417081923,False,False,False
+2021,2023,0.0,hgb,0.0,True,False,False
+2021,2023,0.01,hgb,0.010717131760727614,False,False,False
+2021,2023,0.03,hgb,0.05071713176072761,False,False,False
+2021,2023,0.1,hgb,0.19071713176072763,False,False,False

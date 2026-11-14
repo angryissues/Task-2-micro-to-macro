@@ -1,0 +1,19 @@
+{
+  "protocol": "NLSY97 external replication v1, fixed before inspecting person-level values",
+  "source_archive": "https://nlsinfo.org/cohort-data/nlsy97_all_1997-2023.zip",
+  "person_split": {"algorithm": "SHA256 of NLSY97-replication-v1: plus canonical integer public respondent ID; first 8 hex digits mod 10", "train_buckets": [0,1,2,3,4,5], "development_buckets": [6,7], "confirmation_buckets": [8,9]},
+  "train_outcome_year_max": 2013,
+  "development_outcome_years": [2014,2017],
+  "confirmation_outcome_years": [2018,2023],
+  "rule_multi_horizon": "All evaluated outcomes must lie within their assigned calendar block; no future outcomes or confirmation participants enter training or development",
+  "endpoint": "civilian employment at explicitly defined weekly control points; exact week/date mapping must be documented from official crosswalk before conversion",
+  "horizons_weeks": [52,104,156],
+  "primary_loss": "Brier",
+  "epsilon": 0.0025,
+  "group_epsilon": 0.005,
+  "scope": "Age-appropriate external replication; RLMS 50-64 age group cannot be imposed on this birth cohort",
+  "quality_rule": "Preserve missing/ambiguous weekly states and imputation/denial/backreport flags; no blanket recoding of all non-employer codes as nonemployment",
+  "holdout_rule": "Do not compute confirmation performance, outcome frequencies or label-dependent filters during acquisition/schema preparation; record any later confirmation access",
+  "remaining_before_experiments": ["confirm variable reference codes and weekly time crosswalk", "document precise retrospective feature availability", "fix mappings and candidate hyperparameters on training/development only", "record final complete experimental configuration before first confirmation metrics"],
+  "interpretation": "Initial reserve protocol, not a claim that the complete scientific preregistration is already finished"
+}
